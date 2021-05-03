@@ -1,0 +1,32 @@
+.shop-header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-header .logo {
+    font-family: Bahnschrift;
+    color: red;
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin: 5px 5px 5px 10px;
+}
+
+.shop-header .shopping-cart {
+    font-family: Bahnschrift;
+    align-self: center;
+    font-size: 1.6rem;
+    padding-right: 1rem;
+    margin: 5px 5px 5px 5px;
+}
+
+.shop-header .shopping-cart .cart-icon {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.shop-header .shopping-cart .total-color  {
+    color: gold;
+}

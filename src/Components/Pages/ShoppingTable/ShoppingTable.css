@@ -1,0 +1,47 @@
+.shopping-cart-table {
+    margin-top: 45px;
+    color: rgba(217, 255, 0, 0.58);
+}
+
+.shopping-cart-table .total {
+    font-family: "Berlin Sans FB";
+    text-align: right;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.shopping-cart-table button {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.table {
+    font-size: 1.3rem ;
+    color: rgba(68, 255, 0, 0.49);
+    text-align: center;
+}
+
+
+.string {
+    color: #cc4545;
+    font-size: 1.3rem;
+}
+
+.shopping-cart-table .order {
+    text-align: left;
+    margin: 0 0 30px 30px
+}
+
+.table-string {
+    font-size: 2rem;
+}
+
+.shopping-cart-table button {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 10px;
+}
+
+.shopping-cart-table .total .total-color {
+    color: gold;
+}
