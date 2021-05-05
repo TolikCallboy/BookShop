@@ -4,11 +4,13 @@ import HomePage from "./Pages/HomePage/HomePage";
 import TitlePage from "./Pages/TitlePage/TitlePage";
 import Header from "./Pages/Header/Header";
 import "./App.css"
+import Authorization from "./Authorization/Authorization";
+import Login from "./Authorization/Login";
 
 const App = ( ) => {
     return (
         <main role='main' className="container">
-            <Header numItems={5} total={101111}/>
+            <Header/>
             <Switch>
                 <Route
                     path="/"
@@ -18,6 +20,8 @@ const App = ( ) => {
                     path="/cart"
                     component={TitlePage}
                 />
+                <Route path='/authorization' render={() => <Authorization/>}/>
+                <Route path='/login' render={() => <Login/>}/>
             </Switch>
         </main>
     )

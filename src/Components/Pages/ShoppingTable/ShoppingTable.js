@@ -60,7 +60,7 @@ const ShoppingTable = ({items, total, onIncrease, onDecrease, onDelete}) => {
             </table>
 
             <div className="total">
-                <span>Total: </span>
+                <span>Общая цена: </span>
                 <span className="total-color">$ {total}</span>
 
             </div>

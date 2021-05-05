@@ -1,0 +1,31 @@
+.formik {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.formik button {
+    width: 14rem;
+    height: 3rem;
+    color: #0037ff;
+    border-color: #47f9ff;
+    background-color: #8fbca7;
+    font-size: 20px;
+
+}
+
+.formik label {
+    color: gold;
+    font-size: 1.3rem;
+}
+
+.formik input {
+    width: 14rem;
+}
+
+.formik p {
+    color: #f60000;
+    font-size: 20px;
+    font-family: cursive;
+}

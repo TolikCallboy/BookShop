@@ -1,0 +1,39 @@
+.formik {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.formik button {
+    width: 15rem;
+    height: 3rem;
+    color: #0037ff;
+    border-color: #47f9ff;
+    background-color: #8fbca7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formik label {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.formik input {
+    width: 15rem;
+    margin-top: 10px;
+    height: 2rem;
+}
+
+.formik p {
+    color: #f60000;
+
+    font-family: cursive;
+}
+
+.button-checkbox {
+    font-size: 1.3rem;
+    color: #379af1;
+}

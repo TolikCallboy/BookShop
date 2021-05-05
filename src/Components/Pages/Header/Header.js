@@ -6,19 +6,22 @@ import {connect} from "react-redux";
 
 const Header = ({ count, total}) => {
     return (
-        <header className='shop-header row'>
-            <Link to='/'>
-                <div className='logo text-red'>Книжный Магазин</div>
-            </Link>
-            <Link to="/cart">
-                <div className='shopping-cart'>
+            <header className='shop-header row'>
+                <Link to='/'>
+                    <span className='logo text-red'>Книжный Магазин</span>
+                </Link>
+                <Link to="/cart">
+                <span className='shopping-cart'>
                     <i className='cart-icon fa fa-shopping-cart'/>
-                    <span>{count} item </span>
+                    <span> {count} item </span>
                     <span className="total-color">$ {total}</span>
-
-                </div>
-            </Link>
-        </header>
+                </span>
+                </Link>
+                <span className='authorization'>
+                <a href="/login">Войти </a>
+                <a href="/authorization"> Регистрация</a>
+            </span>
+            </header>
     )
 }
 
